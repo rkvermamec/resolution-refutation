@@ -1,5 +1,5 @@
 # resolution-refutation
-### Implement a propositional logic theorem-prover using the resolution-refutation algorithm.
+###### Implement a propositional logic theorem-prover using the resolution-refutation algorithm.
 
 
 ## Input Format: 
@@ -14,10 +14,7 @@ We will use the following characters for different operators (remaining operator
 #### NOT : ! 
 
 #### Example input file: 
-2  
-A|B 
-!B 
-A
+ 2 </br> A|B </br> !B </br> A
 
 The program should implement a resolution refutation proof, and report the result (1 if the KB entails the query, and 0 otherwise). Additionally, the program should print the resolution steps used in the proof (this would also help you in debugging your codes). 
 Note that your program should really implement resolution theorem proving, and NOT be specific to any particular KB. 
